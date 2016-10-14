@@ -115,6 +115,12 @@
 	--min-GC
 		Min GC content per motif (0.0 to 1.0)	
 		[Default: 1.0]
+		
+	--write-GC
+		Add GC content into the output bed file
+		(Unless --max-GC and min-GC set to other 
+		value than the default, this will increase the run time)
+		[Default: false]
 	
 	--regex-GC
 		Characters that should be considered as
